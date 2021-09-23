@@ -22,7 +22,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     GridView gridView;
-    String[] numWord = {"Subject One", "Subject Two", "Subject Three", "Subject Four", "Subject Five", "Subject Six", "Subject Seven", "Subject Eight", "Subject Nine", "Subject Ten" };
+    String[] numWord = {"Computer Organization and Architecture", "Digital Electronics", "Discrete Mathematics", "Data Structures - 1", "Indian Constitution", "Principles of Programming with Python", "Subject Seven", "Subject Eight", "Subject Nine", "Subject Ten" };
     int[] numImage = {R.drawable.num1,R.drawable.num2,R.drawable.num3,R.drawable.num4,R.drawable.num5,R.drawable.num6,R.drawable.num7,R.drawable.num8,R.drawable.num9,R.drawable.num10};
 
     @Override

@@ -5,14 +5,19 @@
       <map>
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/drawable/ic_home.xml" value="0.2578125" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/drawable/main_background.xml" value="0.2578125" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/drawable/round_corner_button.xml" value="0.2578125" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/drawable/selector.xml" value="0.2578125" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/abs_layout.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_account.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_leaderboard.xml" value="0.24166666666666667" />
-        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_main.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_maps.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_sign_up.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_splash.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/activity_test.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/cat_item_layout.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/akshi/eTest3/app/src/main/res/layout/dialogue_layout.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/akshi/eTest3/app/src/main/res/menu/menu_navigation.xml" value="0.24166666666666667" />
       </map>
     </option>

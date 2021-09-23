@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Splash extends AppCompatActivity {
+
+        private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,14 +20,30 @@ public class Splash extends AppCompatActivity {
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(Splash.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        }, 2000);
+        mAuth = FirebaseAuth.getInstance();
+//        if(mAuth.getCurrentUser() != null)
+//        {
+//            new Handler().postDelayed(new Runnable() {
+//                @Override
+//                public void run() {
+//                    Intent intent = new Intent(Splash.this, MainActivity.class);
+//                    startActivity(intent);
+//                    finish();
+//                }
+//            }, 3000);
+//        }
+//        else
+//        {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent = new Intent(Splash.this, LoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+            }, 3000);
+//        }
+
 
     }
 }
